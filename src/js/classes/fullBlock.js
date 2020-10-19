@@ -1,9 +1,9 @@
-import svg from './svg.js'
+import Svg from './Svg.js'
 
-export default class fullBlock {
+export default class FullBlock {
     constructor() {
         this.isShowBlock = false
-        this.svg = new svg('close').createSvg()
+        this.svg = new Svg('close').createSvg()
         this.block = document.createElement('div')
         this.block.className = 'fullBlock'
         this.header = document.createElement('div')

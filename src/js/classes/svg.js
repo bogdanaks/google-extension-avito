@@ -1,4 +1,4 @@
-export default class svg {
+export default class Svg {
     constructor(type) {
         this.svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
         this.path = document.createElementNS('http://www.w3.org/2000/svg', 'path')
